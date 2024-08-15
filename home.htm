@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Profile</title>
+    <link rel="stylesheet" href="CSS/admin.css" />
+    <link rel="stylesheet" href="home.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="asidbar">
+        <ul>
+          <li class="student">Student Profile</li>
+          <li>
+            <img
+              width="50%"
+              style="border-radius: 50%"
+              src="rohit.jpg"
+              alt="Profile Picture"
+            />
+          </li>
+          <li class="welcome">Welcome</li>
+          <li class="student">Rohit Raju Harne</li>
+          <li><a href="#" data-target="home">Dashboard</a></li>
+          <li><a href="#" data-target="about">Profile</a></li>
+          <li><a href="#" data-target="downloads">Downloads</a></li>
+          <li><a href="#" data-target="contact">Contact</a></li>
+          <li><a href="#" data-target="help">Help</a></li>
+          <li><a href="loginpage.htm">LogOut</a></li>
+        </ul>
+      </div>
+      <div class="response">
+        <div id="home" class="content active">
+          <div class="menu">Welcome</div>
+        </div>
+        <div id="about" class="content">
+          <div class="menu">
+            <ul>
+              <li>
+                <a href="#" onclick="showSection('personal-information')"
+                  >Personal Information</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div id="personal-information" class="content-section">
+            <div class="profile">
+              <table>
+                <tr>
+                  <td>Full Name:</td>
+                  <td>Rohit Raju Harne</td>
+                </tr>
+                <tr>
+                  <td>Course Name:</td>
+                  <td>Java Full Stack</td>
+                </tr>
+                <tr>
+                  <td>Education:</td>
+                  <td>BE (Computer Science & Engineering)</td>
+                </tr>
+                <tr>
+                  <td>Date of Birth:</td>
+                  <td>15/01/2002</td>
+                </tr>
+                <tr>
+                  <td>College Name:</td>
+                  <td>Anuradha Engineering College, Chikhali</td>
+                </tr>
+                <tr>
+                  <td>Skill:</td>
+                  <td>C, C++, Java, JDBC, Servlet, JSP, Spring Core</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div id="downloads" class="content">
+          <div class="menu">
+            <ul>
+              <li><a href="#">Douwnloads</a></li>
+            </ul>
+          </div>
+          <div class="ctable">
+            <table>
+              <tr>
+                <th>Sr. No</th>
+                <th>Topic Name</th>
+                <th>Date</th>
+                <th>PDF Downloads</th>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>Core Java</td>
+                <td>10/06/2024</td>
+                <td><a href="FinalResumeRohit.pdf">view PDF</a></td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>Core Java</td>
+                <td>10/06/2024</td>
+                <td><a href="FinalResumeRohit.pdf">view PDF</a></td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>Core Java</td>
+                <td>10/06/2024</td>
+                <td><a href="FinalResumeRohit.pdf">view PDF</a></td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>Core Java</td>
+                <td>10/06/2024</td>
+                <td><a href="FinalResumeRohit.pdf">view PDF</a></td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>Core Java</td>
+                <td>10/06/2024</td>
+                <td><a href="FinalResumeRohit.pdf">view PDF</a></td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <div id="contact" class="content">Contact Us Section</div>
+        <div id="help" class="content">Help Section</div>
+      </div>
+    </div>
+    <script src="js.js"></script>
+  </body>
+</html>
